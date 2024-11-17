@@ -35,16 +35,16 @@ pub mod ticket {
         //  - `description` that returns the `description` field.
         //  - `status` that returns the `status` field.
 
-        pub fn title(&self) -> String {
-            self.title.clone()
+        pub fn title(self) -> String {
+            self.title
         }
 
-        pub fn description(&self) -> String {
-            self.description.clone()
+        pub fn description(self) -> String {
+            self.description
         }
 
-        pub fn status(&self) -> String {
-            self.status.clone()
+        pub fn status(self) -> String {
+            self.status
         }
     }
 }
